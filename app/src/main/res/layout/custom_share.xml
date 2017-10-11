@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="Enter Receiver's Email Address : "/>
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email address"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Send "
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/dialogButtonCANCEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Cancel "
+        android:layout_gravity="center" />
+
+</LinearLayout>

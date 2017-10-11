@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="reco.minorproject.project.imagereco">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".DescribeActivity"
+            android:label="@string/title_activity_describe"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity
+            android:name=".RecognizeActivity"
+            android:label="@string/title_activity_recognize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EmotionActivity"
+            android:label="@string/title_activity_emotion"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SelectImageActivity"
+            android:label="@string/select_an_image"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AskblindActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".DisplayImagesActivity"></activity>
+    </application>
+
+</manifest>

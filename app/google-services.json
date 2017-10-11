@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294371071813",
+    "firebase_url": "https://imagereco-bd874.firebaseio.com",
+    "project_id": "imagereco-bd874",
+    "storage_bucket": "imagereco-bd874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294371071813:android:038dee9fb903768c",
+        "android_client_info": {
+          "package_name": "reco.minorproject.project.imagereco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294371071813-or94lciqacfghjiiee25dk89ceorbs0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "reco.minorproject.project.imagereco",
+            "certificate_hash": "be7a1d8f10fc4f3f5b1af4f484baf688f7ba5b79"
+          }
+        },
+        {
+          "client_id": "294371071813-q1bfq14vq5ln4qkliec03plfg333d1bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYXAO6rEiRhXGU6HXucgeLGkdkySvt0ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294371071813-q1bfq14vq5ln4qkliec03plfg333d1bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

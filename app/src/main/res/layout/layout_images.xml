@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="5dp"
+            card_view:cardMaxElevation="5dp"
+            card_view:contentPadding="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="#ECEFF1">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/a" />
+
+                <TextView
+                    android:id="@+id/ImageNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="It's a Cat sitting in a bucket !"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="5dp"
+            card_view:cardMaxElevation="5dp"
+            card_view:contentPadding="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="#ECEFF1">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/b" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="Dog with a rose in his mouth !"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="5dp"
+            card_view:cardMaxElevation="5dp"
+            card_view:contentPadding="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="#ECEFF1">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/baby" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="A baby is sleeping !"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<!-- Copyright (c) Microsoft. All rights reserved. -->
+
+<resources>
+    <color name="button_pressed_background">#66B2FF</color>
+    <color name="button_enabled_background">#3399FF</color>
+    <color name="button_disabled_background">#C0C0C0</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+    <!--303F9F-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="back">#fce4ec</color>
+    <color name="medium">#616161</color>
+    <color name="light">#8e8e8e</color>
+    <color name="dark">#373737</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+</resources>
